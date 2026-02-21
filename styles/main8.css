@@ -20,33 +20,50 @@ a:hover, a:focus {
 }
 header h1 {
     font-size:175%;
-    color: maroon(128, 70, 0);
+    color: maroon
     text-indent: 30px;
 }
 header h2 {
     font-size:130%;
-    color: #803e00;
+    color: maroon;
     text-indent: 30px;
 }
 header img {
     float: left;
+    margin-left: 2em;
 }
 .shadow{
-    text-shadow: 2px 2px 2px rgb(128, 49, 0);
+    text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
 main {
     clear: left; 
 } 
 main h3 {
-    margin-top: 3em;
-    font-size: 105%;
+    margin: 1.5em 2em 1.5em;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
 }
+main nav {
+    margin: 1.5em 2em 1.5em;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
 
+}
+main div.contact {
+    margin: 1.5em 2em 0 2em;
+    border: 5px dotted blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+}
 #list {
     line-height: 1.5em;
 }
 
 footer p.copyright {
     text-align: center;
-    font-size: 80%;
 }
