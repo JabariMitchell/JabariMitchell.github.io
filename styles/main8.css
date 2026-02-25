@@ -20,12 +20,12 @@ a:hover, a:focus {
 }
 header h1 {
     font-size:175%;
-    color: maroon;
+    color: rgb(8, 41, 91);
     text-indent: 30px;
 }
 header h2 {
     font-size:130%;
-    color: maroon;
+    color: rgb(0, 2, 128);
     text-indent: 30px;
 }
 header img {
@@ -40,14 +40,14 @@ main {
 } 
 main h3 {
     margin: 1.5em 2em 1.5em;
-    border: 5px dashed blue;
+    border: 5px dashed rgba(239, 8, 19, 0.852);
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
 main nav {
     margin: 1.5em 2em 1.5em;
-    border: 5px dashed blue;
+    border: 5px dashed rgb(242, 255, 0);
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
