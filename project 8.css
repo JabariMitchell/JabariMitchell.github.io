@@ -14,11 +14,16 @@ body {
     background-attachment: fixed;
      background-color: white;
 }
+
 a:hover, a:focus {
     font-style: italic;
     color: orangered;
     border: 3px blue; 
     border-style: dotted;
+}
+header {
+    border-bottom: 2px solid lightskyblue;
+    padding-top: 1em;
 }
 header h1 {
     font-size:175%;
@@ -57,14 +62,26 @@ article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    color: lightgreen;
+    color: lightblue;
 }
 aside{
     width: 20%;
     float: right;
     background-color: #ffebc6;
+    margin-top: 0.5em;
+    padding: 1em;
 }
 footer{
     clear: both;
-    border-top: 2px solid maroon;
+    border-top: 2px solid lightskyblue;
+}
+p.fixed {
+    width: auto;
+    float: right;
+    position: fixed;
+    background-color: aqua;
+    right: 0.5em;
+    padding: 1.5em;
+    border: 2px solid #c0c0c0;
+    border-radius: 25px;
 }
