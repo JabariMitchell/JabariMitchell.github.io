@@ -58,7 +58,7 @@ article {
     width: 75%;
     background-color: rgba(255, 255, 255, 0.92);
     padding: 25px;
-    border: 1px solid #ccc;
+    border: 1px dotted blue;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
