@@ -29,10 +29,12 @@
     color: yellow;
 }
 
+/* 5. Aside ordered list */
 aside ol {
     list-style-type: upper-roman;
 }
 
+/* 6. Aside unordered list */
 aside ul {
     list-style-type: square;
 }
