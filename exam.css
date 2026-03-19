@@ -15,11 +15,13 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #003087;          
-    border-bottom: 4px solid #c60c30;   
+    border-bottom: 4px solid #c60c30;
+}
 
 #nav_menu ul li {
     float: left;
 }
+
 
 #nav_menu ul li a {
     display: block;
