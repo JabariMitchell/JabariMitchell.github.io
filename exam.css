@@ -67,7 +67,7 @@ body {
     bottom: 0;
     left: 75%;
     width: 2px;
-    background: #003087 dotted;
+    border-left: 2px dotted #003087;
 }
 
 article {
@@ -76,9 +76,10 @@ article {
     padding: 25px;
     border: 2px dotted #003087;
     border-radius: 8px;
-    column-count: 2;
+    column-count: 3;               /* ← Changed to three columns */
+    column-gap: 2em;
     column-rule: 2px dotted #003087;
-    column-gap: 2.5em;
+    column-fill: balance;          /* Balances text across columns nicely */
 }
 
 .drop-cap {
@@ -119,12 +120,13 @@ aside h3 {
     padding-bottom: 8px;
     margin-top: 0;
     font-size: 1.4em;
+    text-align: center;
 }
 
 aside ol {
-    list-style-type: upper-roman;
     padding-left: 30px;
     margin: 10px 0;
+    list-style-type: upper-roman;
 }
 
 aside ol li {
@@ -133,8 +135,8 @@ aside ol li {
 
 aside ol ol {
     list-style-type: lower-alpha;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 0 5px 20px;
+    padding-left: 20px;
 }
 
 aside a {
