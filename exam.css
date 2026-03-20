@@ -1,22 +1,19 @@
-/* ===== Global Layout ===== */
 body {
     width: 95%;
     margin: 15px auto;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("background.jpg"); /* replace with your image */
-    background-attachment: fixed; /* does NOT scroll */
+    background-image: url("background.jpg"); 
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 2px solid #000; /* line around the body */
-    padding: 15px;
+    border: 2px solid #000; 
 }
 
-/* ===== Navigation Bar ===== */
+
 nav {
     background-color: #333;
     padding: 10px;
-    border-bottom: 3px solid #000; /* line below menu */
-}
+    border-bottom: 3px solid #000;
 
 nav ul {
     list-style: none;
@@ -36,15 +33,13 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* ===== Article Section ===== */
 article {
     width: 75%;
     float: left;
     padding: 10px;
-    border-right: 2px solid #000; /* line between article and aside */
+    border-right: 2px solid #000;
 }
 
-/* First letter styling for all paragraphs */
 article p::first-letter {
     font-size: 2.5em;
     font-weight: bold;
@@ -54,18 +49,16 @@ article p::first-letter {
     padding-right: 8px;
 }
 
-/* Image wrap */
 article img {
     float: left;
-    width: 300px; /* adjust as needed */
+    width: 300px; 
     margin: 10px 15px 10px 0;
     border: 2px solid #000;
 }
 
-/* ===== Aside Section ===== */
 aside {
     width: 20%;
-    position: fixed; /* does NOT scroll */
+    position: fixed; 
     right: 20px;
     top: 150px;
     background-color: #f2f2f2;
@@ -74,7 +67,7 @@ aside {
 }
 
 aside ul {
-    list-style-type: square; /* adjust if screenshot uses different style */
+    list-style-type: square; 
     padding-left: 20px;
 }
 
@@ -87,12 +80,12 @@ aside a:hover {
     text-decoration: underline;
 }
 
-/* ===== Footer ===== */
+
 footer {
     clear: both;
     margin-top: 40px;
     padding: 15px;
-    border-top: 3px solid #000; /* line above footer */
+    border-top: 3px solid #000; 
     text-align: center;
 }
 
