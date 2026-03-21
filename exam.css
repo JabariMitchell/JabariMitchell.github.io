@@ -67,20 +67,19 @@ article {
   padding-right: 2rem;
 }
 
-h1,
-h2 {
+/* UPDATED h1 + h2 */
+h1 {
+  margin: 1rem 0 1.2rem;
+  font-size: 2.2rem;
   color: #1029ff;
   font-weight: 700;
 }
 
-h1 {
-  margin: 1rem 0 1.2rem;
-  font-size: 2.35rem;
-}
-
 h2 {
   margin: 1.8rem 0 0.7rem;
-  font-size: 2.15rem;
+  font-size: 2rem;
+  color: #1029ff;
+  font-weight: 700;
 }
 
 .article-columns {
@@ -108,12 +107,18 @@ p::first-letter {
   line-height: 0.95;
 }
 
+/* UPDATED introduction image */
 #introduction img {
   float: left;
-  width: 12rem;
-  max-width: 48%;
-  margin: 0.25rem 0.9rem 0.7rem 0;
+  width: 13.5rem;
+  max-width: 52%;
+  margin: 0.15rem 0.9rem 0.5rem 0;
   border: 1px solid #222;
+}
+
+/* NEW: first paragraph spacing */
+#introduction p:first-of-type {
+  margin-top: 0.15rem;
 }
 
 aside {
