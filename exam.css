@@ -68,17 +68,13 @@ article {
 }
 
 aside {
-    width: 240px;                 
-    position: fixed;
-    top: 140px;                      
-    right: 2.5%;
-    background-color: rgba(255, 255, 255, 0.92);
-    padding: 1.2em;
-    border: 2px solid #003087;       
+    background-color: #add8e6; 
+    padding: 20px;
+    border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 4px 4px 12px rgba(0,0,0,0.15);
-    z-index: 10;                  
 }
+
+
 aside h3 {
     margin-top: 0;
     color: #003087;
@@ -86,14 +82,17 @@ aside h3 {
     padding-bottom: 8px;
 }
 
+
 aside ul {
-    list-style-type: square;
-    padding-left: 20px;
+    list-style-type: none;
+    padding-left: 0;
     margin: 15px 0 0;
 }
 
 aside ul li {
     margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #003087;
 }
 
 aside a {
@@ -105,6 +104,7 @@ aside a:hover {
     text-decoration: underline;
     color: #c60c30;
 }
+
 
 .drop-cap {
     float: left;
