@@ -1,38 +1,68 @@
-#nav_menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+body {
+  margin: 20px auto;
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
 }
 
-#nav_menu ul li {
-    float: left;
+nav {
+  margin-bottom: 24px;
 }
 
-#nav_menu ul li a {
-    display: block;
-    width: 175px;
-    padding: 1em 0;
-    text-align: center;
-    text-decoration: none;
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    border-right: 2px solid white;
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-#nav_menu ul li.lastitem {
-    border-right: none;
+.menu li {
+  flex: 1 1 0;
 }
 
-#nav_menu ul li a.current {
-    color: yellow;
+.menu a {
+  display: block;
+  padding: 14px 18px;
+  border: 1px solid #9aa7ff;
+  background-color: #1323e8;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu a[aria-current="page"] {
+  color: #ffef3c;
+}
+
+.layout {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+article {
+  flex: 1 1 auto;
+}
+
+article h1,
+article h2 {
+  color: #1323e8;
+}
+
+aside {
+  width: 240px;
+  padding: 18px;
+  border: 2px solid #4d58c8;
+  background-color: #cdefff;
 }
 
 aside ol {
-    list-style-type: upper-roman;
+  list-style-type: upper-roman;
+  padding-left: 22px;
 }
 
 aside ul {
-    list-style-type: square;
+  list-style-type: square;
+  padding-left: 22px;
 }
