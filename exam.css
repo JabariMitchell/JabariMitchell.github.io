@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 95%;
     max-width: 1400px;
@@ -7,6 +11,9 @@ body {
     background-size: cover;
     color: #333;
     line-height: 1.6;
+    border: 10px solid #003087;           
+    border-radius: 12px;
+    min-height: 100vh;                     
 }
 
 #nav_menu ul {
@@ -48,9 +55,10 @@ body {
 }
 
 .container {
-    display: flex;
-    gap: 3%;
+
     margin: 30px 0;
+    padding: 0 2.5% 2.5% 2.5%;           
+    border-bottom: 4px solid #c60c30;     
 }
 
 article {
@@ -60,21 +68,20 @@ article {
     border: 1px dotted blue;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    column-count: 3;
-    column-rule: 2px, dotted, blue;
-    column-gap: 2em;
+    
 }
 
 aside {
-    width: 20%;
+    width: 240px;
     position: fixed;
-    top: 120px;                
+    top: 140px;                           
     right: 2.5%;
     background-color: rgba(255, 255, 255, 0.92);
-    padding: 20px;
-    border: 1px solid #ccc;
+    padding: 1.2em;
+    border: 2px solid #003087;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.15);
+    z-index: 10;
 }
 
 aside h3 {
@@ -122,15 +129,6 @@ article img.float-right {
     border: 3px solid #003087;
     border-radius: 6px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    border: 15px solid #003087;
-    pointer-events: none;
-    z-index: -1;
 }
 
 footer {
