@@ -8,8 +8,6 @@ html, body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-/*-----------------------------------------------------------*/
-
 table {
   font-size: 0.9em;
 }
@@ -32,8 +30,6 @@ table.first tr:nth-child(odd) {
   background-color: lightblue;
 }
 
-/*-----------------------------------------------------------*/
-
 table.second {
   border-collapse: collapse;
   border: 2px solid purple;
@@ -50,8 +46,6 @@ table.second td {
   vertical-align: middle;
   border: 2px solid purple;
 }
-
-/*-----------------------------------------------------------*/
 
 table.third {
   border-collapse: collapse;
@@ -85,8 +79,6 @@ td.number {
   vertical-align: top;
   font-weight: bold;
 }
-
-/*-----------------------------------------------------------*/
 
 @media only screen and (max-width: 425px) {
   th,
