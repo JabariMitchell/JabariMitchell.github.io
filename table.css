@@ -10,6 +10,14 @@ html, body {
 
 /*-----------------------------------------------------------*/
 
+table {
+  font-size: 0.9em;
+}
+
+caption {
+  margin-bottom: 0.2em;
+}
+
 table.first {
   border-collapse: separate;
   border: 2px solid black;
@@ -43,19 +51,10 @@ table.second td {
   border: 2px solid purple;
 }
 
-table.second thead tr:first-child {
-  border-bottom: 2px solid purple;
-}
-
 /*-----------------------------------------------------------*/
 
 table.third {
   border-collapse: collapse;
-}
-
-table.third th,
-table.third td {
-  padding: 0.45em 0.7em;
 }
 
 table.third thead tr:first-child {
@@ -69,21 +68,25 @@ table.third thead tr:nth-child(2) {
   background-color: lightgreen;
 }
 
+table.third th,
+table.third td {
+  padding: 0.5em 0.8em;
+}
+
 table.third tbody td {
   vertical-align: top;
 }
 
-table.third tbody tr:first-child td {
-  border-top: 2px solid transparent;
-}
-
-table.third tbody tr:nth-child(4) td {
-  border-bottom: 2px solid transparent;
-}
-
-table.third tbody tr:last-child td {
+table.third tbody tr:last-child {
   border-bottom: 2px solid orangered;
 }
+
+td.number {
+  vertical-align: top;
+  font-weight: bold;
+}
+
+/*-----------------------------------------------------------*/
 
 @media only screen and (max-width: 425px) {
   th,
