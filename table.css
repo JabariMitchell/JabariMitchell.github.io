@@ -10,14 +10,6 @@ html, body {
 
 /*-----------------------------------------------------------*/
 
-table {
-  font-size: 0.9em;
-}
-
-caption {
-  margin-bottom: 0.2em;
-}
-
 table.first {
   border-collapse: separate;
   border: 2px solid black;
@@ -51,15 +43,27 @@ table.second td {
   border: 2px solid purple;
 }
 
+table.second thead tr:first-child {
+  border-bottom: 2px solid purple;
+}
+
 /*-----------------------------------------------------------*/
 
 table.third {
   border-collapse: collapse;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid orangered;
+}
+
+table.third th,
+table.third td {
+  padding: 0.5em 0.7em;
 }
 
 table.third thead tr:first-child {
   border-top: 2px solid orangered;
-  border-bottom: 2px solid orangered;
+  border-bottom: 2px solid limegreen;
   background-color: lightgreen;
 }
 
@@ -68,22 +72,12 @@ table.third thead tr:nth-child(2) {
   background-color: lightgreen;
 }
 
-table.third th,
-table.third td {
-  padding: 0.5em 0.8em;
-}
-
-table.third tbody td {
-  vertical-align: top;
-}
-
 table.third tbody tr:last-child {
   border-bottom: 2px solid orangered;
 }
 
-td.number {
+table.third td {
   vertical-align: top;
-  font-weight: bold;
 }
 
 /*-----------------------------------------------------------*/
